@@ -10,4 +10,4 @@ vector_store = InMemoryVectorStore(embedding)
 
 chunks = extract_paragraphs("D:\\GenAI-Projects\\RAG-Eval\\pdfs\\Penguins_ACL.pdf")
 vector_store.add_texts(texts=chunks)
-print(f"indexed {len(chunks)} chunks")
+print(f"indexed {len(chunks)} chunks") 
