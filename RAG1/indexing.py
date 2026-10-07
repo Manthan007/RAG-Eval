@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from file_reader import extract_paragraphs
+from .file_reader import extract_paragraphs
 from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
 
