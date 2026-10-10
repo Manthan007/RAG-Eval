@@ -3,7 +3,6 @@ from deepeval.metrics import GEval
 from deepeval.test_case import LLMTestCase, SingleTurnParams
 from deepeval.models.base_model import DeepEvalBaseLLM
 from langchain_groq import ChatGroq
-import json
 
 from dotenv import load_dotenv
 
